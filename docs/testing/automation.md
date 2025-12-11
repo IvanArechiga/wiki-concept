@@ -10,7 +10,7 @@ Utilizamos una arquitectura ****orientada al dominio**** separando la infraestru
 
 ### 📂 Estructura de Directorios
 
-```
+
 sxt-cash-register/
 ├── .github/                 # Configuración de CI/CD (Actions, Workflows)
 ├── src/
