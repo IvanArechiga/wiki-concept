@@ -10,7 +10,7 @@ Utilizamos una arquitectura ****orientada al dominio**** separando la infraestru
 
 ### 📂 Estructura de Directorios
 
-
+```
 sxt-cash-register/
 ├── .github/                 # Configuración de CI/CD (Actions, Workflows)
 ├── src/
@@ -45,6 +45,7 @@ sxt-cash-register/
 ├── .gitignore               # Archivos ignorados por Git
 ├── README.md                # Documentación del proyecto específico
 └── pom.xml / build.gradle   # Gestión de dependencias`
+```
 
 *https://github.com/Tahanima/selenium-java-test-automation-architecture/tree/main
 
