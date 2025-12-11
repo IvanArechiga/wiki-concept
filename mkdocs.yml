@@ -3,5 +3,6 @@ site_name: SICAR X Organizational Wiki
 nav:
   - Home: index.md
   - About: about.md
+  - Testing: testing.md
 
 theme: material
