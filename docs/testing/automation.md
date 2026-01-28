@@ -1,4 +1,4 @@
-`# 📘 Guía de Estandarización para Repositorios de QA Automation
+# 📘 Guía de Estandarización para Repositorios de QA Automation
 
 Este documento define la estructura oficial de directorios, patrones de diseño y flujo de trabajo para los proyectos de automatización de pruebas del equipo.
 

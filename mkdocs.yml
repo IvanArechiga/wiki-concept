@@ -2,7 +2,70 @@ site_name: SICAR X Organizational Wiki
 
 nav:
   - Home: index.md
+  - Index:
+    - Índice de Documentos: index-documentos.md
+    - Cómo Contribuir: CONTRIBUTING.md
   - About: about.md
+  - Setup & Configuration:
+    - Guía de MkDocs: setup-guia.md
+  - Policies & Standards:
+    - Políticas de Empresa: politicas-empresa.md
+    - Seguridad y Compliance: seguridad-compliance.md
+  - Development:
+    - Procesos de Desarrollo: procesos-desarrollo.md
+    - Arquitectura de Sistemas: arquitectura-sistemas.md
+    - Estándares de Código: estandares-codigo.md
+    - Guía de Despliegue: despliegue.md
+  - People:
+    - Recursos Humanos: recursos-humanos.md
+    - Guía de Onboarding: onboarding.md
+  - Operations:
+    - Procedimientos Operacionales: procedimientos-operacionales.md
   - Testing: testing/automation.md
 
-theme: material
+theme:
+  name: material
+  palette:
+    # Modo oscuro (Dracula-like)
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: light-blue
+      toggle:
+        icon: material/lightbulb-outline
+        name: Cambiar a modo claro
+    # Modo claro
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: light-blue
+      toggle:
+        icon: material/lightbulb
+        name: Cambiar a modo oscuro
+  
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.tracking
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.tooltips
+
+markdown_extensions:
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - css/custom.css

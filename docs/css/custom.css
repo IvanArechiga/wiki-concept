@@ -1,0 +1,284 @@
+/* Personalización Dracula - Azul Rey, Blanco y Negro */
+
+/* Variables de color principales */
+:root {
+  --color-azul-rey: #4169E1;
+  --color-azul-rey-oscuro: #1E40AF;
+  --color-blanco: #FFFFFF;
+  --color-negro: #000000;
+  --color-gris-oscuro: #1E1E2E;
+  --color-gris-claro: #F5F5F5;
+  --color-acento: #6C93FF;
+}
+
+/* Tema Oscuro */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #4169E1;
+  --md-primary-fg-color--light: #6C93FF;
+  --md-primary-fg-color--dark: #1E40AF;
+  --md-accent-fg-color: #00BCD4;
+  --md-typeset-a-color: #6C93FF;
+  --md-footer-bg-color: #1a1a2e;
+  --md-footer-fg-color: #ffffff;
+  --md-footer-bg-color--light: #0f0f1e;
+}
+
+/* Tema Claro */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #4169E1;
+  --md-primary-fg-color--light: #6C93FF;
+  --md-primary-fg-color--dark: #1E40AF;
+  --md-accent-fg-color: #00BCD4;
+  --md-typeset-a-color: #4169E1;
+}
+
+/* Header personalizado */
+.md-header {
+  background-color: #4169E1;
+  color: white;
+}
+
+[data-md-color-scheme="slate"] .md-header {
+  background: linear-gradient(135deg, #1E40AF 0%, #4169E1 100%);
+  box-shadow: 0 2px 8px rgba(65, 105, 225, 0.3);
+}
+
+.md-header__button {
+  color: white;
+}
+
+.md-header__button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Navegación lateral */
+.md-nav__title {
+  color: #4169E1;
+  font-weight: 600;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link {
+  color: #e0e0e0;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link:hover {
+  background-color: rgba(65, 105, 225, 0.1);
+  color: #6C93FF;
+}
+
+/* Enlaces activos */
+.md-nav__link--active {
+  color: #6C93FF;
+  border-left-color: #4169E1;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link--active {
+  color: #6C93FF;
+}
+
+/* Botones */
+.md-button {
+  background-color: #4169E1;
+  color: white;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.md-button:hover {
+  background-color: #1E40AF;
+  box-shadow: 0 2px 8px rgba(65, 105, 225, 0.3);
+}
+
+.md-button--primary {
+  background-color: #4169E1;
+  color: white;
+}
+
+.md-button--primary:hover {
+  background-color: #1E40AF;
+}
+
+/* Tarjetas y contenedores */
+[data-md-color-scheme="slate"] .md-typeset .md-card {
+  background-color: #262637;
+  border-left: 4px solid #4169E1;
+}
+
+/* Tablas */
+.md-typeset table:not([class]) {
+  border: 1px solid #4169E1;
+}
+
+.md-typeset table:not([class]) thead {
+  background-color: #4169E1;
+  color: white;
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) thead {
+  background-color: #1E40AF;
+  color: white;
+}
+
+.md-typeset table:not([class]) tbody tr:hover {
+  background-color: rgba(65, 105, 225, 0.1);
+}
+
+/* Código */
+.md-typeset code {
+  background-color: rgba(65, 105, 225, 0.1);
+  color: #4169E1;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+[data-md-color-scheme="slate"] .md-typeset code {
+  background-color: rgba(108, 147, 255, 0.15);
+  color: #6C93FF;
+}
+
+.md-typeset pre {
+  background-color: #1a1a2e;
+  color: #e0e0e0;
+  border-left: 4px solid #4169E1;
+}
+
+/* Bloques de advertencia */
+.md-typeset .admonition {
+  border-left-color: #4169E1;
+}
+
+.md-typeset .admonition.warning {
+  border-left-color: #FF9800;
+}
+
+.md-typeset .admonition.danger {
+  border-left-color: #F44336;
+}
+
+.md-typeset .admonition.info {
+  border-left-color: #4169E1;
+}
+
+.md-typeset .admonition.note {
+  border-left-color: #2196F3;
+}
+
+.md-typeset .admonition.tip {
+  border-left-color: #4CAF50;
+}
+
+.md-typeset .admonition.success {
+  border-left-color: #4CAF50;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition {
+  background-color: rgba(65, 105, 225, 0.05);
+}
+
+/* Títulos */
+.md-typeset h1, .md-typeset h2, .md-typeset h3 {
+  color: #4169E1;
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1,
+[data-md-color-scheme="slate"] .md-typeset h2,
+[data-md-color-scheme="slate"] .md-typeset h3 {
+  color: #6C93FF;
+}
+
+/* Pie de página */
+.md-footer {
+  background-color: #1a1a2e;
+  color: white;
+}
+
+.md-footer__inner {
+  border-top: 2px solid #4169E1;
+}
+
+.md-footer__link:hover {
+  color: #6C93FF;
+}
+
+/* Barra de búsqueda */
+.md-search__input {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.md-search__input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+[data-md-color-scheme="slate"] .md-search__input {
+  background-color: rgba(65, 105, 225, 0.15);
+}
+
+[data-md-color-scheme="slate"] .md-search__input:focus {
+  background-color: rgba(65, 105, 225, 0.25);
+  box-shadow: 0 0 0 2px #4169E1;
+}
+
+/* Tabs */
+.md-tabs__link {
+  color: inherit;
+}
+
+.md-tabs__link--active {
+  color: #4169E1;
+  border-bottom-color: #4169E1;
+}
+
+[data-md-color-scheme="slate"] .md-tabs__link--active {
+  color: #6C93FF;
+  border-bottom-color: #6C93FF;
+}
+
+/* Indicador de sección actual en TOC */
+.md-toc__link--active {
+  color: #4169E1;
+}
+
+[data-md-color-scheme="slate"] .md-toc__link--active {
+  color: #6C93FF;
+}
+
+/* Líneas divisorias */
+hr {
+  border-color: #4169E1;
+  opacity: 0.3;
+}
+
+[data-md-color-scheme="slate"] hr {
+  border-color: #6C93FF;
+}
+
+/* Scroll suave */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus states */
+a:focus, button:focus {
+  outline: 2px solid #4169E1;
+  outline-offset: 2px;
+}
+
+/* Efecto hover mejorado en enlaces */
+.md-typeset a {
+  transition: color 0.2s ease;
+}
+
+.md-typeset a:hover {
+  color: #1E40AF;
+}
+
+[data-md-color-scheme="slate"] .md-typeset a:hover {
+  color: #6C93FF;
+}
+
+/* Decoración adicional para el tema */
+.md-content {
+  background-image: 
+    linear-gradient(135deg, rgba(65, 105, 225, 0.02) 0%, transparent 100%);
+}
