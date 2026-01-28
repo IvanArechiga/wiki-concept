@@ -25,6 +25,7 @@ nav:
 
 theme:
   name: material
+  logo: https://www.sicarx.com/images/new/logo_white.webp
   palette:
     # Modo oscuro (Dracula-like)
     - media: "(prefers-color-scheme: dark)"
