@@ -736,20 +736,33 @@ src/test/resources
 <li><strong>Integración a Producción (<code>master</code>):</strong> Una rama solo se integra a <code>master</code> cuando el feature o fix <strong>ya está desplegado y validado en Producción</strong>.</li>
 </ol>
 <h3 id="ciclo-de-vida-de-una-rama">Ciclo de Vida de una Rama<a class="headerlink" href="#ciclo-de-vida-de-una-rama" title="Permanent link">&para;</a></h3>
-<ol>
-<li><strong>Creación:</strong> El QA crea su rama desde <code>master</code>:</li>
+<ul>
+<li><strong>Creación de rama</strong>: El QA la crea desde <code>master</code>:</li>
 <li><code>git checkout master</code></li>
-<li><code>git pull</code></li>
-<li><code>git checkout -b feature/QA-123-automatizar-login</code></li>
-<li><strong>Desarrollo e Integración Temprana:</strong></li>
-<li>Se realizan commits atómicos usando <em>Conventional Commits</em> (<code>feat: ...</code>, <code>fix: ...</code>, <code>test: ...</code>).</li>
-<li>Para probar el código junto con el resto del equipo, se crea un <strong>Pull Request hacia <code>development</code></strong>.</li>
-<li><strong>Pase a Producción:</strong></li>
-<li>Una vez que el equipo de desarrollo sube el requerimiento a Producción y QA valida que todo está correcto.</li>
-<li>Se crea un <strong>Pull Request de la rama original (<code>feature/QA-123...</code>) hacia <code>master</code></strong>.</li>
-<li><em>Nota:</em> Nunca se hace merge de <code>development</code> hacia <code>master</code>, ya que <code>development</code> podría contener código de otros features incompletos.</li>
-<li><strong>Code Review:</strong> Todo PR hacia <code>development</code> o <code>master</code> debe ser revisado y aprobado por al menos un miembro del equipo y pasar los pipelines de CI en verde.</li>
-</ol>
+<li><code>git pull</code>  </li>
+<li>
+<p><code>git checkout -b feature/QA-123-automatizar-login</code></p>
+</li>
+<li>
+<p><strong>Desarrollo → Integración temprana</strong>:</p>
+</li>
+<li>Commits con <strong>trazabilidad</strong> incluyendo el ID de la task (ej. <code>QA-123: automatizar login</code>).</li>
+<li>
+<p>Para probar con el equipo → <strong>Pull Request hacia <code>development</code></strong>.</p>
+</li>
+<li>
+<p><strong>Pase a producción</strong> (si aplica):</p>
+</li>
+<li>Una vez que dev sube el feature a prod y QA valida.</li>
+<li><strong>Pull Request de la rama original → <code>master</code></strong>.</li>
+<li><em>Nota</em>: Nunca se hace merge directo de <code>development</code> a <code>master</code> (puede tener features incompletos).</li>
+<li>
+<p>La rama debe ser eliminada despues de su correcta integracion a master.</p>
+</li>
+<li>
+<p><strong>Code Review</strong>: Todo PR (a <code>development</code> o <code>master</code>) necesita aprobación por al menos un miembro del equipo y pasar los tests en jenkins CI en verde.</p>
+</li>
+</ul>
 <hr />
 <h2 id="6-gestion-de-dependencias-gradle">6. Gestión de Dependencias (Gradle)<a class="headerlink" href="#6-gestion-de-dependencias-gradle" title="Permanent link">&para;</a></h2>
 <p>Utilizamos <strong>Gradle (versión 8.11 o superior)</strong> para la gestión de dependencias y tareas de construcción (<code>build.gradle</code>).</p>
