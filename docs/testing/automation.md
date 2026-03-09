@@ -175,22 +175,25 @@ Nuestro flujo de control de versiones está diseñado para proteger el código d
 
 ### Ciclo de Vida de una Rama
 
-- **Creación de rama**: El QA la crea desde `master`:
-  - `git checkout master`
-  - `git pull`  
-  - `git checkout -b feature/QA-123-automatizar-login`
+**Creación de rama**: El QA la crea desde `master`:
 
-- **Desarrollo → Integración temprana**:
+- `git checkout master`
+- `git pull`
+- `git checkout -b feature/QA-123-automatizar-login`
+
+**Desarrollo → Integración temprana**:
+
 - Commits con **trazabilidad** incluyendo el ID de la task (ej. `QA-123: automatizar login`).
 - Para probar con el equipo → **Pull Request hacia `development`**.
 
-- **Pase a producción** (si aplica):
-  - Una vez que dev sube el feature a prod y QA valida.
-  - **Pull Request de la rama original → `master`**.
-  - *Nota*: Nunca se hace merge directo de `development` a `master` (puede tener features incompletos).
-  - La rama debe ser eliminada despues de su correcta integracion a master.
+**Pase a producción** (si aplica):
 
-- **Code Review**: Todo PR (a `development` o `master`) necesita aprobación por al menos un miembro del equipo y pasar los tests en jenkins CI en verde.
+- Una vez que dev sube el feature a prod y QA valida.
+- **Pull Request de la rama original → `master`**.
+- *Nota*: Nunca se hace merge directo de `development` a `master` (puede tener features incompletos).
+- La rama debe ser eliminada despues de su correcta integracion a master.
+
+**Code Review**: Todo PR (a `development` o `master`) necesita aprobación por al menos un miembro del equipo y pasar los tests en jenkins CI en verde.
 
 ---
 
