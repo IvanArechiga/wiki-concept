@@ -1,53 +1,29 @@
-# SICAR X - Wiki Organizacional
+# Documentación de Testing
 
-Bienvenido a la **Documentación Oficial de SICAR X**. Este es el lugar centralizado donde encontramos toda la información sobre nuestra empresa, procesos, políticas y estándares técnicos.
+Bienvenido a la **Documentación Oficial de Testing**. Este es el lugar centralizado donde encuentras toda la información sobre guías de testing, automatización de pruebas y estándares para proyectos de QA.
 
 ## 🚀 Inicio Rápido
 
-### Para Nuevos Empleados
-Comienza con nuestra [Guía de Onboarding](onboarding.md) para conocer la empresa, el equipo y los procesos básicos en tu primer mes.
-
-### Para Desarrolladores
-Consulta los [Procesos de Desarrollo](procesos-desarrollo.md) y la [Arquitectura de Sistemas](arquitectura-sistemas.md) para entender nuestro stack técnico.
-
-### Para Líderes y Gerentes
-Revisa [Recursos Humanos](recursos-humanos.md) y [Políticas de la Empresa](politicas-empresa.md) para información sobre gestión de equipos.
+### Para Testers y Desarrolladores
+Comienza con nuestra [Guía de Estandarización para Repositorios de QA Automation](testing/automation.md) para entender la estructura de proyectos y mejores prácticas.
 
 ## 📚 Áreas Principales
 
-### Setup & Configuración
-- **[Guía de MkDocs](setup-guia.md)** - Cómo compilar y ejecutar esta documentación
-
-### Políticas y Estándares
-- **[Políticas de la Empresa](politicas-empresa.md)** - Código de conducta, beneficios, seguridad informática
-- **[Seguridad y Cumplimiento](seguridad-compliance.md)** - Protección de datos y regulaciones
-
-### Desarrollo de Software
-- **[Procesos de Desarrollo](procesos-desarrollo.md)** - SDLC, Git flow, testing, CI/CD
-- **[Arquitectura de Sistemas](arquitectura-sistemas.md)** - Componentes, patrones, microservicios
-- **[Guía de Despliegue](despliegue.md)** - Cómo desplegar a producción paso a paso
-- **[Estándares de Código](estandares-codigo.md)** - Convenciones y mejores prácticas
-
-### Personas
-- **[Recursos Humanos](recursos-humanos.md)** - Información de RRHH, beneficios, compensación
-- **[Guía de Onboarding](onboarding.md)** - Plan de integración de 90 días
-
-### Procesos Internos
-- **[Procesos de Requester](procedimientos-operacionales.md)** - Cómo solicitar recursos y accesos
-- **[Procedimientos Operacionales](procedimientos-operacionales.md)** - Procesos diarios y rutinas
+### Testing y Automatización
+- **[Guía de Estandarización](testing/automation.md)** - Arquitectura de proyectos, estructura de directorios y definición de clases de pruebas
 
 ## 📊 Estadísticas de Documentación
 
-- **Documentos**: 15+
-- **Categorías**: 6
-- **Política de Actualización**: Trimestral
-- **Última Actualización**: Enero 2024
+- **Documentos**: 1
+- **Categorías**: 1
+- **Política de Actualización**: Continua
+- **Última Actualización**: Marzo 2026
 
-## 🎯 Objetivos de Esta Wiki
+## 🎯 Objetivos de Esta Documentación
 
-✅ **Centralizar Información** - Un único lugar para todas las políticas y procesos  
-✅ **Reducir Onboarding** - Nuevos empleados se integran más rápido  
-✅ **Mejorar Comunicación** - Menos emails, más claridad  
+✅ **Centralizar Información de Testing** - Un único lugar para guías de automatización  
+✅ **Estandarizar Proyectos** - Mejores prácticas para QA  
+✅ **Mejorar Calidad** - Procesos claros para testing  
 ✅ **Mantener Consistencia** - Procesos estandarizados en toda la empresa  
 ✅ **Facilitar Búsqueda** - Encuentra lo que necesitas rápidamente
 
@@ -92,20 +68,9 @@ R: Trimestralmente, pero se aceptan actualizaciones continuas.
 
 ## 📞 Contacto y Soporte
 
-- **Preguntas Generales**: Abre una issue en el repositorio
-- **Información de RRHH**: Contacta a [hr@company.com](mailto:hr@company.com)
+- **Preguntas Generales**: Abre una issue en el [repositorio](https://github.com/IvanArechiga/wiki-concept/issues) 
+- **Información**: Contacta a [ivan@sicar.mx](mailto:ivan@sicar.mx)
 - **Soporte Técnico**: Contacta al equipo de DevOps
-- **Sugerencias**: Usa el canal #wiki en Slack
-
-## 🎓 Formación y Desarrollo
-
-Además de esta wiki, contamos con:
-- **Sesiones de capacitación**: Mensuales
-- **Mentoring**: Asignado a nuevos empleados
-- **Cursos en línea**: Presupuesto anual disponible
-- **Documentación técnica**: En repositorios específicos
-
----
 
 **¡Bienvenido a SICAR X!** 🎉
 

@@ -1,162 +1,121 @@
-# Guía de Contribución a la Wiki
+# Guía de Contribución a la Documentación de Testing
 
 ## Introducción
 
-¡Gracias por querer contribuir a la Wiki de SICAR X! Este documento te guía en cómo agregar, editar o mejorar la documentación.
+¡Gracias por contribuir a la Documentación de Testing! Esta guía explica cómo agregar, modificar o mejorar la documentación de testing y automatización de manera efectiva.
 
 ## 1. Antes de Empezar
 
 ### Requisitos Previos
+- Git instalado y configurado
+- Acceso de escritura al repositorio
+- Python 3.8+ (para pruebas locales)
+- Editor de texto (VS Code recomendado con extensiones de Markdown)
 
-- Git instalado
-- Acceso al repositorio
-- Python 3.8+ (para ver cambios localmente)
-- Editor de texto (VS Code recomendado)
-
-### Obtener el Repositorio
-
+### Clonar el Repositorio
 ```bash
-# Clonar
 git clone https://github.com/IvanArechiga/wiki-concept.git
 cd wiki-concept
-
-# Crear rama
-git checkout -b docs/nombre-del-cambio
 ```
 
-## 2. Estructura de la Wiki
+## 2. Flujo de Trabajo
 
+### Crear una Rama
+Siempre crea una rama específica para tus cambios:
+```bash
+git checkout -b feature/nombre-del-cambio
+# o
+git checkout -b fix/correccion-pequena
 ```
-docs/
-├── index.md                          # Home
-├── about.md                          # About
-├── setup-guia.md                    # Setup
-├── politicas-empresa.md             # Políticas
-├── seguridad-compliance.md          # Seguridad
-├── procesos-desarrollo.md           # Procesos técnicos
-├── arquitectura-sistemas.md         # Arquitectura
-├── estandares-codigo.md             # Estándares
-├── despliegue.md                    # Despliegue
-├── recursos-humanos.md              # RRHH
-├── onboarding.md                    # Onboarding
-├── procedimientos-operacionales.md  # Procedimientos
-├── css/
-│   └── custom.css                   # Estilos personalizados
-└── testing/
-    └── automation.md                # Testing
+
+### Hacer Cambios
+- Edita los archivos en `docs/`
+- Usa Markdown para el contenido
+- Sigue los estándares de escritura (ver sección 4)
+
+### Probar Localmente
+```bash
+# Instalar dependencias si es necesario
+pip install -r requirements.txt
+
+# Ejecutar servidor local
+mkdocs serve
+
+# Verificar en http://localhost:8000
 ```
+
+### Commit y Push
+```bash
+git add .
+git commit -m "docs: descripción clara del cambio"
+git push origin nombre-de-tu-rama
+```
+
+### Crear Pull Request
+1. Ve a GitHub y crea un PR desde tu rama
+2. Describe los cambios en detalle
+3. Solicita revisión
+4. Espera aprobación y merge
 
 ## 3. Tipos de Contribuciones
 
-### Tipo 1: Agregar Nuevo Documento
-
-**Cuándo**:
-- Nuevo proceso importante
-- Nuevo producto/servicio
-- Nuevo departamento
+### Agregar Nueva Documentación
+**Cuándo**: Nuevos procesos de testing, guías técnicas, o expansiones de la documentación existente.
 
 **Pasos**:
+1. Crea el archivo en la ubicación apropiada (ej. `docs/testing/nueva-guia.md`)
+2. Escribe el contenido siguiendo la estructura estándar
+3. Actualiza `mkdocs.yml` para incluir el nuevo documento en la navegación
+4. Prueba localmente
+5. Commit y PR
 
-1. **Crear archivo**
-   ```bash
-   # Crear documento
-   vim docs/nuevo-documento.md
-   ```
-
-2. **Estructura básica**
-   ```markdown
-   # Título del Documento
-   
-   ## Introducción
-   Breve descripción.
-   
-   ## Secciones Principales
-   - Sección 1
-   - Sección 2
-   - Sección 3
-   
-   ## Contactos
-   Info de contacto.
-   
-   ---
-   **Última Actualización**: [Fecha]
-   **Responsable**: [Nombre]
-   ```
-
-3. **Actualizar mkdocs.yml**
-   ```yaml
-   nav:
-     - Categoría:
-       - Mi Documento: nuevo-documento.md
-   ```
-
-4. **Commit**
-   ```bash
-   git add docs/nuevo-documento.md mkdocs.yml
-   git commit -m "docs: agregar nuevo-documento.md"
-   git push origin docs/nuevo-documento
-   ```
-
-5. **Pull Request**
-   - Ir a GitHub
-   - Crear PR con descripción
-   - Esperar aprobación
-
-### Tipo 2: Editar Documento Existente
-
-**Cuándo**:
-- Información desactualizada
-- Errores tipográficos
-- Mejorar claridad
-- Agregar ejemplos
+### Modificar Documentación Existente
+**Cuándo**: Actualizaciones, correcciones, mejoras de claridad.
 
 **Pasos**:
+1. Edita el archivo relevante
+2. Actualiza la fecha de "Última Actualización" si aplica
+3. Verifica enlaces y formato
+4. Prueba localmente
+5. Commit con mensaje descriptivo (ej. "docs: actualizar guía de automatización con nuevos estándares")
 
-1. **Editar archivo**
-   ```bash
-   vim docs/documento-existente.md
-   ```
-
-2. **Actualizar fecha**
-   ```markdown
-   **Última Actualización**: Enero 28, 2024
-   ```
-
-3. **Test local** (opcional)
-   ```bash
-   mkdocs serve
-   # Verificar en http://localhost:8000
-   ```
-
-4. **Commit**
-   ```bash
-   git add docs/documento-existente.md
-   git commit -m "docs: actualizar documento-existente"
-   git push origin docs/documento-existente
-   ```
-
-5. **Pull Request**
-
-### Tipo 3: Correcciones Menores
-
-**Cuándo**:
-- Typos
-- Links rotos
-- Formateo
+### Correcciones Menores
+**Cuándo**: Typos, enlaces rotos, formateo.
 
 **Pasos**:
-
-1. **Editar directamente en GitHub** (para cambios muy pequeños)
-   - O seguir Tipo 2
-
-2. **Commit conciso**
-   ```bash
-   git commit -m "docs: fix typo en documento-x"
-   ```
-
----
+1. Edita directamente
+2. Commit conciso (ej. "docs: fix typo en automation.md")
+3. Push y PR (o merge directo si es trivial)
 
 ## 4. Estándares de Escritura
+
+### Estructura de Documentos
+- **Título**: Claro y descriptivo
+- **Introducción**: Resumen breve
+- **Secciones**: Organizadas lógicamente
+- **Ejemplos**: Código o casos prácticos cuando aplique
+- **Conclusión/Contactos**: Si es necesario
+
+### Formato Markdown
+- Usa encabezados jerárquicos (# ## ###)
+- Listas para pasos o elementos
+- Bloques de código con sintaxis correcta
+- Enlaces internos relativos
+
+### Convenciones
+- Lenguaje claro y conciso
+- Evitar jerga técnica sin explicar
+- Actualizar fechas de modificación
+- Mantener consistencia con documentos existentes
+
+## 5. Soporte
+
+Si tienes dudas:
+- Revisa issues existentes en GitHub
+- Crea un issue para preguntas
+- Contacta al equipo de mantenimiento
+
+¡Gracias por mejorar la documentación de testing!
 
 ### Formato Markdown
 
@@ -251,7 +210,7 @@ Structure
 
 ## 6. Procesos Específicos
 
-### Actualizar Setup-guia.md
+### Actualizar index.md
 
 1. Verificar cambios en mkdocs
 2. Probar localmente
@@ -267,7 +226,7 @@ Structure
 
 ### Actualizar Políticas
 
-1. Coordinar con RRHH
+1. Coordinar con Direccion
 2. Obtener aprobación ejecutiva
 3. Actualizar fecha
 4. Comunicar a la empresa
@@ -429,9 +388,8 @@ R: Abre issue, discute con stakeholders.
 
 ### Contactos
 
-- **Wiki Admin**: wiki@sicarx.com
-- **Slack**: #documentation
-- **GitHub Issues**: Repository
+- **Wiki Admin**: ivan@sicar.mx
+- **GitHub Issues**: [Repository](https://github.com/IvanArechiga/wiki-concept/issues)
 
 ---
 
@@ -439,4 +397,4 @@ R: Abre issue, discute con stakeholders.
 
 Tu participación hace la documentación mejor para todos.
 
-**Última Actualización**: Enero 28, 2024
+**Última Actualización**: Marzo 09, 2026

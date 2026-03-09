@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ################################################################################
-# Script de Despliegue Automático para Wiki SICAR X
+# Script de Despliegue Automático para Documentación de Testing
 # Automatiza: git add -> commit -> push -> mkdocs gh-deploy
 # Basado en documentación oficial de MkDocs
 ################################################################################
@@ -44,7 +44,7 @@ if [ ! -f "mkdocs.yml" ]; then
     exit 1
 fi
 
-print_header "🚀 DESPLIEGUE DE WIKI SICAR X"
+print_header "🚀 DESPLIEGUE DE DOCUMENTACIÓN DE TESTING"
 
 # Paso 1: Verificar estado de git
 print_info "Verificando estado de Git..."

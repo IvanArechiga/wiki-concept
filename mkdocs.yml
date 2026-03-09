@@ -1,26 +1,7 @@
-site_name: SICAR X Organizational Wiki
+site_name: Testing Documentation Wiki
 
 nav:
   - Home: index.md
-  - Index:
-    - Índice de Documentos: index-documentos.md
-    - Cómo Contribuir: CONTRIBUTING.md
-  - About: about.md
-  - Setup & Configuration:
-    - Guía de MkDocs: setup-guia.md
-  - Policies & Standards:
-    - Políticas de Empresa: politicas-empresa.md
-    - Seguridad y Compliance: seguridad-compliance.md
-  - Development:
-    - Procesos de Desarrollo: procesos-desarrollo.md
-    - Arquitectura de Sistemas: arquitectura-sistemas.md
-    - Estándares de Código: estandares-codigo.md
-    - Guía de Despliegue: despliegue.md
-  - People:
-    - Recursos Humanos: recursos-humanos.md
-    - Guía de Onboarding: onboarding.md
-  - Operations:
-    - Procedimientos Operacionales: procedimientos-operacionales.md
   - Testing: testing/automation.md
 
 theme:

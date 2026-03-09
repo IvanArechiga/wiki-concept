@@ -1,6 +1,6 @@
 # Guía de Despliegue Automático
 
-Script bash para automatizar el despliegue de tu Wiki SICAR X a GitHub Pages. Basado en la [documentación oficial de MkDocs](https://www.mkdocs.org/user-guide/deploying-your-docs/).
+Script bash para automatizar el despliegue de tu Documentación de Testing a GitHub Pages. Basado en la [documentación oficial de MkDocs](https://www.mkdocs.org/user-guide/deploying-your-docs/).
 
 ## Script de Despliegue
 

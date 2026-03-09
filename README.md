@@ -1,13 +1,12 @@
-# SICAR X - Wiki Organizacional
+# Documentación de Testing
 
-Documentación centralizada y profesional para SICAR X.
+Documentación centralizada para guías de testing y automatización de pruebas.
 
 ## 🚀 Inicio Rápido
 
 ```bash
 # Instalar dependencias
-pip install -r requirements.txt
-
+ç
 # Iniciar servidor local
 mkdocs serve
 
@@ -17,36 +16,17 @@ http://localhost:8000
 
 ## 📚 Contenido
 
-- **15+ documentos** organizacionales
-- **6 categorías** temáticas
-- **Tema personalizado** (Azul Rey, Blanco, Negro)
-- **Searchable** y con navegación intuitiva
+- **Guía de Estandarización** para repositorios de QA Automation
+- **Estructura de Proyectos** detallada
+- **Definición de Clases de Pruebas** con nomenclatura y anotaciones
+- **Tema Personalizado** para navegación intuitiva
 
 ### Documentación Incluida
 
-**Setup & Configuración**
-- Guía de MkDocs (cómo compilar)
-
-**Políticas y Estándares**
-- Políticas de la empresa
-- Seguridad y compliance (ISO 27001, GDPR, CCPA)
-
-**Desarrollo**
-- Procesos de desarrollo (SDLC, Agile, Git)
-- Arquitectura de sistemas
-- Estándares de código
-- Guía de despliegue
-
-**Personas**
-- Recursos humanos
-- Guía de onboarding (90 días)
-
-**Operaciones**
-- Procedimientos operacionales diarios
-
-**Otros**
-- Home personalizado
-- About SICAR X
+**Testing y Automatización**
+- Guía de Estandarización para Repositorios de QA Automation
+- Arquitectura del Proyecto
+- Definición de Estructura para Clases de Pruebas
 
 ## 🎨 Tema Personalizado
 

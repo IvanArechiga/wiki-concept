@@ -1,6 +1,6 @@
-# Cómo Compilar y Ejecutar el Wiki
+# Cómo Compilar y Ejecutar la Documentación de Testing
 
-Este repositorio contiene la documentación organizacional compilada con **MkDocs** y el tema **Material for MkDocs**.
+Este repositorio contiene la documentación de testing compilada con **MkDocs** y el tema **Material for MkDocs**.
 
 ## Inicio Rápido
 
