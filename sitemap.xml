@@ -1,3 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>None./</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="None"/>
+    </url>
+    <url>
+        <loc>NoneCONTRIBUTING/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="NoneCONTRIBUTING/"/>
+    </url>
+    <url>
+        <loc>Nonegeneral/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonegeneral/"/>
+    </url>
+    <url>
+        <loc>Nonegithub/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonegithub/"/>
+    </url>
+    <url>
+        <loc>Noneproyectos/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneproyectos/"/>
+    </url>
+    <url>
+        <loc>Nonerepositorios/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonerepositorios/"/>
+    </url>
+    <url>
+        <loc>Nonetesting/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonetesting/"/>
+    </url>
+    <url>
+        <loc>Nonetesting/automation/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonetesting/automation/"/>
+    </url>
+    <url>
+        <loc>Nonetesting/automation/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonetesting/automation/"/>
+    </url>
+    <url>
+        <loc>Nonetesting/automation/arquitectura/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonetesting/automation/arquitectura/"/>
+    </url>
+    <url>
+        <loc>Nonetesting/automation/estructura-pruebas/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonetesting/automation/estructura-pruebas/"/>
+    </url>
+    <url>
+        <loc>Nonetesting/automation/mejores-practicas/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonetesting/automation/mejores-practicas/"/>
+    </url>
+    <url>
+        <loc>Nonetesting/casos-de-prueba/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonetesting/casos-de-prueba/"/>
+    </url>
+    <url>
+        <loc>Nonetesting/casos-de-prueba/movil/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonetesting/casos-de-prueba/movil/"/>
+    </url>
+    <url>
+        <loc>Nonetesting/casos-de-prueba/web/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonetesting/casos-de-prueba/web/"/>
+    </url>
+    <url>
+        <loc>Nonetesting/identificadores/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonetesting/identificadores/"/>
+    </url>
+    <url>
+        <loc>Nonetesting/identificadores/estandares-nombres/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonetesting/identificadores/estandares-nombres/"/>
+    </url>
+    <url>
+        <loc>Nonetesting/identificadores/movil/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonetesting/identificadores/movil/"/>
+    </url>
+    <url>
+        <loc>Nonetesting/identificadores/web/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonetesting/identificadores/web/"/>
+    </url>
 </urlset>
