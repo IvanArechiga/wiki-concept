@@ -1,8 +1,6 @@
 site_name: Testing Documentation Wiki
 
-nav:
-  - Home: index.md
-  - Testing: testing/automation.md
+site_name: Testing Documentation Wiki
 
 theme:
   name: material
@@ -26,7 +24,8 @@ theme:
         name: Cambiar a modo oscuro
   
   features:
-    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
     - navigation.instant
     - navigation.tracking
     - toc.integrate
@@ -34,6 +33,19 @@ theme:
     - search.highlight
     - content.tabs.link
     - content.tooltips
+
+plugins:
+  - search
+  - i18n:
+      default_language: es
+      languages:
+        - locale: es
+          name: Español
+          build: true
+          default: true
+        - locale: en
+          name: English
+          build: false
 
 markdown_extensions:
   - pymdownx.highlight:

@@ -1,12 +1,13 @@
 # Documentación de Testing
 
-Documentación centralizada para guías de testing y automatización de pruebas.
+Documentación centralizada para **testers que programan casos automatizados en Java**. Esta wiki incluye guías de testing, automatización, estándares de código, lineamientos generales y procesos para el equipo de QA.
 
 ## 🚀 Inicio Rápido
 
 ```bash
 # Instalar dependencias
-ç
+pip install -r requirements.txt
+
 # Iniciar servidor local
 mkdocs serve
 

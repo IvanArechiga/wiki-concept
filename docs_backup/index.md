@@ -2,25 +2,21 @@
 
 Bienvenido a la **Documentación Oficial de Testing**. Este es el lugar centralizado donde encuentras toda la información sobre guías de testing, automatización de pruebas y estándares para proyectos de QA.
 
-📌 **Nota**: Esta documentación está enfocada principalmente en **testers que programan casos automatizados en Java**, aunque incluye estándares generales aplicables a todo el equipo.
-
 ## 🚀 Inicio Rápido
 
-### Para Testers (Automatización)
-1. **[Testing & QA](testing/)** — Documentación completa de testing y automatización en Java
+### Para Testers
+1. **[Testing & QA](testing/)** — Documentación completa de testing
 2. **[Identificadores](testing/identificadores/)** — Estándares para identificadores en pruebas
 3. **[Casos de Prueba](testing/casos-de-prueba/)** — Cómo documentar casos de prueba
 
-### Para Todo el Equipo
+### Para Desarrolladores
 - **[General](general/)** — Estándares de código y lineamientos
 - **[GitHub](github/)** — Procesos y flujos de trabajo
-- **[Repositorios](repositorios/)** — Organización y estructura
-- **[Proyectos](proyectos/)** — Documentación por proyecto
 
 ## 📚 Secciones Principales
 
 ### 🧪 [Testing & Automatización](testing/)
-- [Automatización de Pruebas](testing/automation/) — Arquitectura y estructura para Java
+- [Automatización de Pruebas](testing/automation/) — Arquitectura y estructura
 - [Identificadores](testing/identificadores/) — Estándares de nombres
 - [Casos de Prueba](testing/casos-de-prueba/) — Definición de casos
 
@@ -41,13 +37,12 @@ Flujos de trabajo y procesos de contribución
 - **Documentos**: 15+
 - **Categorías**: 7
 - **Lenguaje**: Español
-- **Enfoque Principal**: Testers con automatización en Java
 - **Última Actualización**: Marzo 2026
 
 ## 🎯 Objetivos de Esta Documentación
 
 ✅ **Centralizar Información de Testing** - Un único lugar para guías de automatización  
-✅ **Estandarizar Proyectos** - Mejores prácticas para QA y desarrollo  
+✅ **Estandarizar Proyectos** - Mejores prácticas para QA  
 ✅ **Mejorar Calidad** - Procesos claros para testing  
 ✅ **Mantener Consistencia** - Procesos estandarizados en toda la empresa  
 ✅ **Facilitar Búsqueda** - Encuentra lo que necesitas rápidamente
