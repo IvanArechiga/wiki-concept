@@ -2,6 +2,8 @@
 
 Documentación centralizada para **testers que programan casos automatizados en Java**. Esta wiki incluye guías de testing, automatización, estándares de código, lineamientos generales y procesos para el equipo de QA.
 
+> Última actualización: 2026-04-08
+
 ## 🚀 Inicio Rápido
 
 ```bash
